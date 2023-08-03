@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.login-container{
+    text-align: center;
+    color:orangered
+}
+.form-container{
+    max-width: 30rem;
+    border: 2px solid rgb(137, 138, 134);
+    border-radius: 5px;
+    padding: 1rem;
+   background-color: azure;
+   
+   
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-control label{
+    font-size: large;
+    font-weight: bold;
+   
+    
+}
+
+.form-control input{
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 2rem;
+}
+
+.signup-new{
+    text-align: center;
+}
